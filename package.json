@@ -1,0 +1,12 @@
+{
+  "name": "Cephalon Anthem"
+  "description: "none:
+  "version": "0.1.5"
+  "main": "bot.js"
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.2.1"
+   }
+}
