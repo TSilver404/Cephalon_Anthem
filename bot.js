@@ -1,4 +1,4 @@
-const config = require('./config.json');
+
 const Discord = require('discord.js');
 const prefix = process.env.prefix;
 const bot = new Discord.Client();
@@ -10,9 +10,9 @@ bot.on('ready', () => {
 });
 
 bot.on('message', async message => {
-	if(message.author.id !== bot.user.id){
+	/*if(message.author.id !== bot.user.id){
 		return;
-	}	
+	}*/	
 
 	let messageArray = message.content.split(" ");
 	let command = messageArray[0];
