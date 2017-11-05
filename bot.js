@@ -1,6 +1,6 @@
 
 const Discord = require('discord.js');
-const prefix = process.env.prefix;
+const prefix = config.prefix;
 const bot = new Discord.Client();
 var flag = 0;
 var key = 0;
@@ -154,4 +154,4 @@ bot.on('message', async message =>{
 	}
 });
 
-bot.login(process.env.token);
+bot.login(config.token);
