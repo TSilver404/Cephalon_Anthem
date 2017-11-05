@@ -21,7 +21,7 @@ bot.on('message', async message => {
 
 	if(command === `${prefix}On`){
 		message.channel.send("`Cephalon Online.`");
-		message.delete(0);
+		/*message.delete(0);*/
 	}
 
 	if(command === `${prefix}Check`){
